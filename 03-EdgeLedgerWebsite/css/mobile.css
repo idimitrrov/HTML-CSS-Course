@@ -1,0 +1,95 @@
+#what .items {
+  display: block;
+  padding: 1rem;
+}
+
+/* Align icon to left */
+#what .items .item {
+  display: flex;
+  text-align: left;
+}
+
+/* Position icon */
+
+#what .items .item i {
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-bottom: 0;
+}
+
+/* Smartphones */
+
+@media (max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  #navbar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  #navbar ul {
+    padding: 0.5rem;
+  }
+  #showcase .showcase-content {
+    top: 110px;
+  }
+
+  #who {
+    display: block;
+  }
+
+  #who .who-img {
+    display: none;
+  }
+
+  #what h2 {
+    margin-top: 24px;
+  }
+  #who .who-text h2 {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 36px;
+  }
+  #clients h2 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  #clients .items img {
+    width: 80%;
+  }
+
+  #clients .items div:last-child {
+    display: none;
+  }
+  #contact {
+    flex-direction: column;
+    height: 914px;
+  }
+
+  #contact .map {
+    height: 407px;
+    border-top: 4px solid #333;
+  }
+  #contact .contact-form .form-group {
+    margin: 12px 20px 12px 0px;
+  }
+  #contact .contact-form .container-2 #test {
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+  #contact .contact-form .form-group textarea {
+    padding-right: 10px;
+  }
+}
+
+@media (max-height: 568px) {
+  #showcase .showcase-content {
+    margin-top: -2rem;
+    top: 140px;
+  }
+  .l-heading {
+    font-size: 3rem;
+  }
+}
