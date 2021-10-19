@@ -1,0 +1,89 @@
+#navbar {
+  padding-bottom: 20px;
+}
+
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul,
+#navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+}
+
+/* Showcase */
+#showcase {
+  height: 100%;
+  padding-bottom: 70px;
+}
+#showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+/* Info-Content */
+
+section #home-info .bg-dark .info-content {
+  padding-bottom: 10px;
+}
+/* Home Info */
+#home-info {
+  height: 100%;
+}
+
+#home-info .info-img {
+  display: none;
+}
+
+#home-info .info-content {
+  float: none;
+  width: 100%;
+}
+
+/* Boxes */
+
+.box {
+  float: none;
+  width: 100%;
+}
+
+/* About */
+
+#about-info .info-right,
+#about-info .info-left {
+  float: none;
+  width: 100%;
+}
+
+.l-heading {
+  text-align: center;
+}
+
+#about-info .info-right {
+  margin-top: 30px;
+}
+
+/* Contact */
+
+#contact-info .box {
+  border-bottom: #444 dotted 3px;
+}
+
+#contact-form .container .btn {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+}
