@@ -11,6 +11,8 @@
   "devDependencies": {
     "node-sass": "^6.0.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "sass": "^1.43.4"
+  },
   "keywords": []
 }
